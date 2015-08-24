@@ -14,6 +14,7 @@
 		4EB20F981B8B7BF400BF277C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F971B8B7BF400BF277C /* Images.xcassets */; };
 		4EB20F9B1B8B7BF400BF277C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F991B8B7BF400BF277C /* LaunchScreen.xib */; };
 		4EB20FA71B8B7BF400BF277C /* GifAnimation2CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20FA61B8B7BF400BF277C /* GifAnimation2CodeTests.m */; };
+		4EFEFA521B8B7D3B00BEBF6F /* MovingValueProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA511B8B7D3B00BEBF6F /* MovingValueProgressBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4EB20FA01B8B7BF400BF277C /* GifAnimation2CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifAnimation2CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB20FA51B8B7BF400BF277C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB20FA61B8B7BF400BF277C /* GifAnimation2CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifAnimation2CodeTests.m; sourceTree = "<group>"; };
+		4EFEFA501B8B7D3B00BEBF6F /* MovingValueProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingValueProgressBar.h; sourceTree = "<group>"; };
+		4EFEFA511B8B7D3B00BEBF6F /* MovingValueProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingValueProgressBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				4EB20F8F1B8B7BF400BF277C /* AppDelegate.m */,
 				4EB20F911B8B7BF400BF277C /* ViewController.h */,
 				4EB20F921B8B7BF400BF277C /* ViewController.m */,
+				4EFEFA501B8B7D3B00BEBF6F /* MovingValueProgressBar.h */,
+				4EFEFA511B8B7D3B00BEBF6F /* MovingValueProgressBar.m */,
 				4EB20F941B8B7BF400BF277C /* Main.storyboard */,
 				4EB20F971B8B7BF400BF277C /* Images.xcassets */,
 				4EB20F991B8B7BF400BF277C /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				4EB20F931B8B7BF400BF277C /* ViewController.m in Sources */,
 				4EB20F901B8B7BF400BF277C /* AppDelegate.m in Sources */,
+				4EFEFA521B8B7D3B00BEBF6F /* MovingValueProgressBar.m in Sources */,
 				4EB20F8D1B8B7BF400BF277C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				4EB20FAC1B8B7BF400BF277C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB20FAD1B8B7BF400BF277C /* Build configuration list for PBXNativeTarget "GifAnimation2CodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				4EB20FAF1B8B7BF400BF277C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

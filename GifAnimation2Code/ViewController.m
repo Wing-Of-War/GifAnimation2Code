@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MovingValueProgressBar.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MovingValueProgressBar *progressBar = [[MovingValueProgressBar alloc]init];
+    progressBar.center = self.view.center;
+    [self.view addSubview:progressBar];
+    [progressBar start];
 }
 
 - (void)didReceiveMemoryWarning {
