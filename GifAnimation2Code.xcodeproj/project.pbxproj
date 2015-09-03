@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E15AED21B983C5300006728 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15AECF1B983C5300006728 /* DisplayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4E15AED31B983C5300006728 /* WidgetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15AED11B983C5300006728 /* WidgetListViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4EB20F8D1B8B7BF400BF277C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20F8C1B8B7BF400BF277C /* main.m */; };
 		4EB20F901B8B7BF400BF277C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20F8F1B8B7BF400BF277C /* AppDelegate.m */; };
-		4EB20F931B8B7BF400BF277C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20F921B8B7BF400BF277C /* ViewController.m */; };
 		4EB20F961B8B7BF400BF277C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F941B8B7BF400BF277C /* Main.storyboard */; };
 		4EB20F981B8B7BF400BF277C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F971B8B7BF400BF277C /* Images.xcassets */; };
 		4EB20F9B1B8B7BF400BF277C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F991B8B7BF400BF277C /* LaunchScreen.xib */; };
 		4EB20FA71B8B7BF400BF277C /* GifAnimation2CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20FA61B8B7BF400BF277C /* GifAnimation2CodeTests.m */; };
 		4EF7C7441B9818DE007C8865 /* UIColor+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7C7431B9818DE007C8865 /* UIColor+Motion.m */; settings = {ASSET_TAGS = (); }; };
-		4EF7C7491B981DBF007C8865 /* FaceComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7C7481B981DBF007C8865 /* FaceComment.m */; settings = {ASSET_TAGS = (); }; };
-		4EF7C74C1B981DCC007C8865 /* MovingValueProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7C74B1B981DCC007C8865 /* MovingValueProgressBar.m */; settings = {ASSET_TAGS = (); }; };
+		4EF7C7491B981DBF007C8865 /* WOWFaceComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7C7481B981DBF007C8865 /* WOWFaceComment.m */; settings = {ASSET_TAGS = (); }; };
+		4EF7C74C1B981DCC007C8865 /* WOWProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7C74B1B981DCC007C8865 /* WOWProgressBar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E15AECE1B983C5300006728 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		4E15AECF1B983C5300006728 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		4E15AED01B983C5300006728 /* WidgetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetListViewController.h; sourceTree = "<group>"; };
+		4E15AED11B983C5300006728 /* WidgetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetListViewController.m; sourceTree = "<group>"; };
+		4E15AED71B983DD500006728 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
 		4EB20F871B8B7BF400BF277C /* GifAnimation2Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifAnimation2Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB20F8B1B8B7BF400BF277C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB20F8C1B8B7BF400BF277C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EB20F8E1B8B7BF400BF277C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EB20F8F1B8B7BF400BF277C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4EB20F911B8B7BF400BF277C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4EB20F921B8B7BF400BF277C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EB20F951B8B7BF400BF277C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB20F971B8B7BF400BF277C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4EB20F9A1B8B7BF400BF277C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,10 +49,10 @@
 		4EB20FA61B8B7BF400BF277C /* GifAnimation2CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifAnimation2CodeTests.m; sourceTree = "<group>"; };
 		4EF7C7421B9818DE007C8865 /* UIColor+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Motion.h"; sourceTree = "<group>"; };
 		4EF7C7431B9818DE007C8865 /* UIColor+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Motion.m"; sourceTree = "<group>"; };
-		4EF7C7471B981DBF007C8865 /* FaceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceComment.h; sourceTree = "<group>"; };
-		4EF7C7481B981DBF007C8865 /* FaceComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceComment.m; sourceTree = "<group>"; };
-		4EF7C74A1B981DCC007C8865 /* MovingValueProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingValueProgressBar.h; sourceTree = "<group>"; };
-		4EF7C74B1B981DCC007C8865 /* MovingValueProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingValueProgressBar.m; sourceTree = "<group>"; };
+		4EF7C7471B981DBF007C8865 /* WOWFaceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOWFaceComment.h; sourceTree = "<group>"; };
+		4EF7C7481B981DBF007C8865 /* WOWFaceComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOWFaceComment.m; sourceTree = "<group>"; };
+		4EF7C74A1B981DCC007C8865 /* WOWProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOWProgressBar.h; sourceTree = "<group>"; };
+		4EF7C74B1B981DCC007C8865 /* WOWProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOWProgressBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E15AECD1B983C3900006728 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E15AED01B983C5300006728 /* WidgetListViewController.h */,
+				4E15AED11B983C5300006728 /* WidgetListViewController.m */,
+				4E15AECE1B983C5300006728 /* DisplayViewController.h */,
+				4E15AECF1B983C5300006728 /* DisplayViewController.m */,
+			);
+			name = ViewController;
+			path = Category/ViewController;
+			sourceTree = "<group>";
+		};
 		4EB20F7E1B8B7BF400BF277C = {
 			isa = PBXGroup;
 			children = (
@@ -90,12 +106,12 @@
 		4EB20F891B8B7BF400BF277C /* GifAnimation2Code */ = {
 			isa = PBXGroup;
 			children = (
+				4E15AED71B983DD500006728 /* Enums.h */,
 				4EF7C7461B981DBF007C8865 /* Widget */,
 				4EF7C7411B9818A0007C8865 /* Category */,
+				4E15AECD1B983C3900006728 /* ViewController */,
 				4EB20F8E1B8B7BF400BF277C /* AppDelegate.h */,
 				4EB20F8F1B8B7BF400BF277C /* AppDelegate.m */,
-				4EB20F911B8B7BF400BF277C /* ViewController.h */,
-				4EB20F921B8B7BF400BF277C /* ViewController.m */,
 				4EB20F941B8B7BF400BF277C /* Main.storyboard */,
 				4EB20F971B8B7BF400BF277C /* Images.xcassets */,
 				4EB20F991B8B7BF400BF277C /* LaunchScreen.xib */,
@@ -142,10 +158,10 @@
 		4EF7C7461B981DBF007C8865 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				4EF7C74A1B981DCC007C8865 /* MovingValueProgressBar.h */,
-				4EF7C74B1B981DCC007C8865 /* MovingValueProgressBar.m */,
-				4EF7C7471B981DBF007C8865 /* FaceComment.h */,
-				4EF7C7481B981DBF007C8865 /* FaceComment.m */,
+				4EF7C74A1B981DCC007C8865 /* WOWProgressBar.h */,
+				4EF7C74B1B981DCC007C8865 /* WOWProgressBar.m */,
+				4EF7C7471B981DBF007C8865 /* WOWFaceComment.h */,
+				4EF7C7481B981DBF007C8865 /* WOWFaceComment.m */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -250,12 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF7C7491B981DBF007C8865 /* FaceComment.m in Sources */,
-				4EB20F931B8B7BF400BF277C /* ViewController.m in Sources */,
-				4EF7C74C1B981DCC007C8865 /* MovingValueProgressBar.m in Sources */,
+				4EF7C7491B981DBF007C8865 /* WOWFaceComment.m in Sources */,
+				4E15AED21B983C5300006728 /* DisplayViewController.m in Sources */,
+				4EF7C74C1B981DCC007C8865 /* WOWProgressBar.m in Sources */,
 				4EF7C7441B9818DE007C8865 /* UIColor+Motion.m in Sources */,
 				4EB20F901B8B7BF400BF277C /* AppDelegate.m in Sources */,
 				4EB20F8D1B8B7BF400BF277C /* main.m in Sources */,
+				4E15AED31B983C5300006728 /* WidgetListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

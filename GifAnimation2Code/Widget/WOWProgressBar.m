@@ -6,16 +6,16 @@
 //  Copyright (c) 2015年 Nomemo. All rights reserved.
 //
 
-#import "MovingValueProgressBar.h"
+#import "WOWProgressBar.h"
 
-@interface MovingValueProgressBar ()
+@interface WOWProgressBar ()
 
 @property (nonatomic, strong) UILabel *label;
 @property (nonatomic, assign) NSInteger percent;
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
-@implementation MovingValueProgressBar
+@implementation WOWProgressBar
 
 
 - (instancetype)init {
@@ -29,8 +29,8 @@
         
         _label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 10, 21)];
         _label.backgroundColor = self.backgroundColor;
-//        _label.backgroundColor = [UIColor redColor];
         _label.text = @"0%";
+
         [_label sizeToFit];
         [self addSubview:_label];
     }
@@ -71,13 +71,5 @@
     self.label.text = [NSString stringWithFormat:@"%@%%",@(self.percent)];
     [self.label sizeToFit];
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MovingValueProgressBar : UIView
+@interface WOWProgressBar : UIView
 - (void)start;
 @end

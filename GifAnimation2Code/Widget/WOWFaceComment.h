@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FaceComment : UIView
+@interface WOWFaceComment : UIView
 
 @property (nonatomic, strong, readwrite)UIColor *topColor;
 @property (nonatomic, strong, readwrite)UIColor *midColor;

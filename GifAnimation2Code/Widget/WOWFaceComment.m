@@ -6,11 +6,11 @@
 //  Copyright © 2015年 Nomemo. All rights reserved.
 //
 
-#import "FaceComment.h"
+#import "WOWFaceComment.h"
 #import "UIColor+Motion.h"
 
 
-@interface FaceComment()<UIGestureRecognizerDelegate>
+@interface WOWFaceComment()<UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) CAShapeLayer *lineLayer;
 @property (nonatomic, strong) CAShapeLayer *circleLayer;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation FaceComment {
+@implementation WOWFaceComment {
 
     CGFloat lineLayerCurrentY;
     CGFloat lineLayerY;
