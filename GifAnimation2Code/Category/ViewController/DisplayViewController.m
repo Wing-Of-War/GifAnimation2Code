@@ -9,9 +9,10 @@
 #import "DisplayViewController.h"
 #import "WOWFaceComment.h"
 #import "WOWProgressBar.h"
-
+#import "WOWMatrixMenu.h"
 
 @interface DisplayViewController()
+@property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 
 @end
 
@@ -20,12 +21,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    self.type = WidgetType_MatrixMenu;
     switch (self.type) {
         case WidgetType_ProgressBar :
             [self setupProgressBar];
             break;
         case WidgetType_CommentFace:
             [self setupCommentFace];
+            break;
+
+        case WidgetType_MatrixMenu:
+            [self setupMatrixMenu];
             break;
     }
 
@@ -46,14 +53,18 @@
     WOWFaceComment *commentFace = [[WOWFaceComment alloc]initWithFrame:CGRectMake(00, 0, 260, 260)];
     [self.view addSubview:commentFace];
     commentFace.center = self.view.center;
-    
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-    label.text = @"Drag up and down to rate";
-    [label sizeToFit];
-    label.center = commentFace.center;
-    label.frame = CGRectMake(CGRectGetMinX(label.frame), CGRectGetMinY(label.frame) + 200, CGRectGetWidth(label.frame), CGRectGetHeight(label.frame));
-    [self.view addSubview:label];
+        self.tipLabel.text = @"Drag up and down to rate";
 }
 
+- (void)setupMatrixMenu {
+//    http://smashinghub.com/wp-content/uploads/2014/09/menu-animation-effects-5.gif
+    
+    WOWMatrixMenu *menu = [[WOWMatrixMenu alloc]init];
+    [self.view addSubview:menu];
+    menu.center = self.view.center;
+    
+    self.tipLabel.text = @"Tap";
+
+}
 
 @end

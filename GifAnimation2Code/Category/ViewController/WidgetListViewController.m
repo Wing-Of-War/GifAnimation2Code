@@ -19,15 +19,13 @@
 
 @implementation WidgetListViewController
 
-//WidgetType_ProgressBar,
-//WidgetType_CommentFace,
-
 
 - (void)viewDidLoad {
     
     
     self.widgets = @[@[@"ProgressBar",@(WidgetType_ProgressBar)],
                      @[@"FaceComment",@(WidgetType_CommentFace)],
+                     @[@"MatrixMenu",@(WidgetType_MatrixMenu)],
                      ];
     
     self.title = @"Gif2Code-Widget";

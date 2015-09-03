@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E15AED21B983C5300006728 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15AECF1B983C5300006728 /* DisplayViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4E15AED31B983C5300006728 /* WidgetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15AED11B983C5300006728 /* WidgetListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4E9AAF291B98B5D7003328A8 /* WOWMatrixMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AAF281B98B5D7003328A8 /* WOWMatrixMenu.m */; settings = {ASSET_TAGS = (); }; };
 		4EB20F8D1B8B7BF400BF277C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20F8C1B8B7BF400BF277C /* main.m */; };
 		4EB20F901B8B7BF400BF277C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB20F8F1B8B7BF400BF277C /* AppDelegate.m */; };
 		4EB20F961B8B7BF400BF277C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB20F941B8B7BF400BF277C /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 		4E15AED01B983C5300006728 /* WidgetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetListViewController.h; sourceTree = "<group>"; };
 		4E15AED11B983C5300006728 /* WidgetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetListViewController.m; sourceTree = "<group>"; };
 		4E15AED71B983DD500006728 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		4E9AAF271B98B5D7003328A8 /* WOWMatrixMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOWMatrixMenu.h; sourceTree = "<group>"; };
+		4E9AAF281B98B5D7003328A8 /* WOWMatrixMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOWMatrixMenu.m; sourceTree = "<group>"; };
 		4EB20F871B8B7BF400BF277C /* GifAnimation2Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifAnimation2Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB20F8B1B8B7BF400BF277C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB20F8C1B8B7BF400BF277C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				4EF7C74B1B981DCC007C8865 /* WOWProgressBar.m */,
 				4EF7C7471B981DBF007C8865 /* WOWFaceComment.h */,
 				4EF7C7481B981DBF007C8865 /* WOWFaceComment.m */,
+				4E9AAF271B98B5D7003328A8 /* WOWMatrixMenu.h */,
+				4E9AAF281B98B5D7003328A8 /* WOWMatrixMenu.m */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				4EF7C7491B981DBF007C8865 /* WOWFaceComment.m in Sources */,
 				4E15AED21B983C5300006728 /* DisplayViewController.m in Sources */,
 				4EF7C74C1B981DCC007C8865 /* WOWProgressBar.m in Sources */,
+				4E9AAF291B98B5D7003328A8 /* WOWMatrixMenu.m in Sources */,
 				4EF7C7441B9818DE007C8865 /* UIColor+Motion.m in Sources */,
 				4EB20F901B8B7BF400BF277C /* AppDelegate.m in Sources */,
 				4EB20F8D1B8B7BF400BF277C /* main.m in Sources */,

@@ -12,6 +12,7 @@
 typedef NS_ENUM(NSUInteger, WidgetType) {
     WidgetType_ProgressBar,
     WidgetType_CommentFace,
+    WidgetType_MatrixMenu,
 };
 
 #endif /* Enums_h */
